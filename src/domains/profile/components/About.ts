@@ -1,4 +1,7 @@
-export function About(): string {
+import { translations, Lang } from '../../../core/i18n';
+
+export function About(lang: Lang): string {
+  const t = translations[lang].about;
   return `
     <section class="about section" id="about">
       <div class="container">
@@ -21,21 +24,11 @@ export function About(): string {
           </div>
 
           <div class="about-text">
-            <span class="section-label">About me</span>
-            <h2>Código limpio,<br /><em>mente segura</em></h2>
-            <p>
-              Desarrollador frontend con experiencia intermedia en resolución de errores, 
-              desarrollo de funcionalidades y soporte técnico en diversos proyectos y frameworks.
-            </p>
-            <p>
-              Principiante apasionado en <strong>ciberseguridad</strong>, explorando activamente 
-              la seguridad de redes, la criptografía y el análisis de vulnerabilidades — con un 
-              gran interés en aplicar esos conocimientos para crear aplicaciones más seguras.
-            </p>
-            <p>
-              Mi objetivo es combinar un <strong>desarrollo frontend limpio</strong> con una 
-              mentalidad centrada en la seguridad.
-            </p>
+            <span class="section-label">${t.label}</span>
+            <h2>${t.title}<br /><em>${t.titleEm}</em></h2>
+            <p>${t.p1}</p>
+            <p>${t.p2}</p>
+            <p>${t.p3}</p>
           </div>
 
         </div>

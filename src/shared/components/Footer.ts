@@ -1,9 +1,12 @@
-export function Footer(): string {
+import { translations, Lang } from '../../core/i18n';
+
+export function Footer(lang: Lang): string {
+  const t = translations[lang].footer;
   return `
     <footer>
       <div class="container">
-        <p>© 2025 Imerly Mora. Crafted with care.</p>
-        <p class="footer-sub">Frontend Developer · Buenos Aires, Argentina</p>
+        <p>${t.copy}</p>
+        <p class="footer-sub">${t.sub}</p>
       </div>
     </footer>
   `;

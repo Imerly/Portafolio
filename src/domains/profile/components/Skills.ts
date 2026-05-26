@@ -1,9 +1,12 @@
-export function Skills(): string {
+import { translations, Lang } from '../../../core/i18n';
+
+export function Skills(lang: Lang): string {
+  const t = translations[lang].skills;
   return `
     <section class="skills section" id="skills">
       <div class="container">
-        <span class="section-label">Skills</span>
-        <h2>Tecnologías que <em>manejo</em></h2>
+        <span class="section-label">${t.label}</span>
+        <h2>${t.title} <em>${t.titleEm}</em></h2>
         <div class="skills-grid">
 
           <div class="skill-group">
@@ -30,12 +33,13 @@ export function Skills(): string {
           </div>
 
           <div class="skill-group">
-            <h4>Herramientas</h4>
+            <h4>Tools</h4>
             <div class="skill-tags">
               <span class="skill-tag">Git</span>
               <span class="skill-tag">Vite</span>
               <span class="skill-tag">Jira</span>
               <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Cypress</span>
             </div>
           </div>
 
