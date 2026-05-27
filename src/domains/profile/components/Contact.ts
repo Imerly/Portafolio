@@ -6,7 +6,7 @@ export function Contact(lang: Lang): string {
       <div class="container">
         <div class="contact-inner">
           <span class="section-label">${lang === 'en' ? 'Contact' : 'Contacto'}</span>
-          <h2>${lang === 'en' ? "Let's <em>talk</em>" : 'Hablemos <em>juntas</em>'}</h2>
+          <h2>${lang === 'en' ? "Let's <em>talk</em>" : 'Hablemos'}</h2>
           <p class="contact-desc">${lang === 'en' ? "I'm open to new opportunities. Feel free to reach out!" : '¡Estoy abierta a nuevas oportunidades. No dudes en escribirme!'}</p>
           <div class="contact-links">
 
