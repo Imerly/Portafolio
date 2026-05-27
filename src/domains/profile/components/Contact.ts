@@ -6,7 +6,7 @@ export function Contact(lang: Lang): string {
       <div class="container">
         <div class="contact-inner">
           <span class="section-label">${lang === 'en' ? 'Contact' : 'Contacto'}</span>
-          <h2>${lang === 'en' ? "Let's <em>talk</em>" : 'Hablemos'}</h2>
+          <h2>${lang === 'en' ? "Let's <em>talk</em>" : 'Hablemos <em>juntas</em>'}</h2>
           <p class="contact-desc">${lang === 'en' ? "I'm open to new opportunities. Feel free to reach out!" : '¡Estoy abierta a nuevas oportunidades. No dudes en escribirme!'}</p>
           <div class="contact-links">
 
@@ -20,12 +20,12 @@ export function Contact(lang: Lang): string {
               </div>
             </a>
 
-            <a href="tel:+5491164763018" class="contact-item">
+            <a href="https://wa.me/5491164763018" target="_blank" rel="noopener" class="contact-item">
               <div class="contact-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .95h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.132.558 4.13 1.532 5.862L.057 23.447a.75.75 0 00.92.92l5.635-1.474A11.953 11.953 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.956 9.956 0 01-5.127-1.417l-.369-.218-3.821 1.001 1.02-3.72-.24-.382A9.956 9.956 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
               </div>
               <div>
-                <span class="contact-label">${lang === 'en' ? 'Phone' : 'Teléfono'}</span>
+                <span class="contact-label">WhatsApp</span>
                 <span class="contact-value">+54 9 11 6476 3018</span>
               </div>
             </a>
@@ -39,6 +39,17 @@ export function Contact(lang: Lang): string {
                 <span class="contact-value">imerly-mora-bba7842a9</span>
               </div>
             </a>
+
+            <a href="https://github.com/Imerly" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/Imerly</span>
+              </div>
+            </a>
+
           </div>
         </div>
       </div>
