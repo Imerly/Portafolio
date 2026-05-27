@@ -31,7 +31,7 @@ export const translations = {
       titleEm: 'journey',
       role: 'Web Developer',
       type: 'Hackmetrix · Internship',
-      date: 'Feb 2025 – Aug 2025',
+      date: 'Feb 2025 - Aug 2025',
       items: [
         'Frontend and backend bug resolution, maintaining application stability and user experience.',
         'Technical incident management via ticketing system, supporting internal teams and external users.',
@@ -96,7 +96,7 @@ export const translations = {
       titleEm: 'trayectoria',
       role: 'Web Developer',
       type: 'Hackmetrix · Pasantía',
-      date: 'Feb 2025 – Ago 2025',
+      date: 'Feb 2025 - Ago 2025',
       items: [
         'Resolución de bugs frontend y backend, manteniendo la estabilidad y experiencia de usuario.',
         'Gestión de incidentes técnicos via sistema de tickets, dando soporte a equipos internos y usuarios externos.',

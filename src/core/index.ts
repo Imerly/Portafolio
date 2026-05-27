@@ -5,6 +5,7 @@ import { About } from '../domains/profile/components/About';
 import { Skills } from '../domains/profile/components/Skills';
 import { Timeline } from '../domains/experience/components/Timeline';
 import { ProjectGrid } from '../domains/projects/components/ProjectGrid';
+import { Contact } from '../domains/profile/components/Contact';
 import { Lang } from './i18n';
 
 let currentLang: Lang = 'en';
@@ -25,6 +26,7 @@ function renderApp(): void {
       ${Timeline(currentLang)}
       ${ProjectGrid(currentLang)}
       ${Skills(currentLang)}
+      ${Contact(currentLang)}
     </main>
     ${Footer(currentLang)}
   `;
